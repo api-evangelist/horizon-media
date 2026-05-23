@@ -1,0 +1,229 @@
+aid: horizon-media
+name: Horizon Media
+description: >-
+  Horizon Media is the largest independent media agency in the United States,
+  founded in 1989 by Bill Koenigsberg and headquartered at 75 Varick Street in
+  New York with offices in Los Angeles and Toronto. The agency employs roughly
+  2,300+ people, is ranked the third largest US media agency by COMvergence,
+  and manages an estimated $8.7 billion in billings. Horizon operates a
+  portfolio of specialty units (Horizon Next for performance, Blue Hour Studios
+  for social/creator, Night Market for retail media, Scout Sports for sponsorship
+  via Horizon Sports & Experiences, and the WHY Group for cultural insights)
+  and runs a proprietary data and AI stack anchored by the Blu platform. In
+  2025 Horizon formed Horizon Global, a 50/50 US joint venture with Havas
+  positioned at roughly $20 billion in combined billings, merging Blu with
+  Havas Converged into a shared platform branded BluConverged, and is also
+  building Horizon OS (Open Sphere) as an orchestration layer over the
+  programmatic ad-tech stack. Horizon Media does not publish any public
+  developer APIs, OpenAPI specifications, SDKs, or external developer portals,
+  and its GitHub organization is private. All platforms documented here are
+  internal/client-facing proprietary systems rather than open developer APIs.
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/horizon-media/refs/heads/main/apis.yml
+humanURL: https://www.horizonmedia.com/
+created: '2025-03-01'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+tags:
+  - Advertising
+  - Media Agency
+  - Media Planning
+  - Media Buying
+  - Programmatic
+  - Retail Media
+  - Sports Marketing
+  - Social Media
+  - Influencer Marketing
+  - Cultural Intelligence
+  - Data Platform
+  - AI Platform
+  - MarTech
+  - AdTech
+  - Independent Agency
+apis: []
+common:
+  - type: Website
+    url: https://www.horizonmedia.com/
+  - type: Independence
+    url: https://www.horizonmedia.com/independence
+  - type: Innovation
+    url: https://www.horizonmedia.com/innovation
+  - type: Integrity
+    url: https://www.horizonmedia.com/integrity
+  - type: Inclusion
+    url: https://www.horizonmedia.com/inclusion
+  - type: Intentionality
+    url: https://www.horizonmedia.com/intentionality
+  - type: Insights
+    url: https://www.horizonmedia.com/insights
+  - type: Contact
+    url: https://www.horizonmedia.com/interested
+  - type: Sitemap
+    url: https://www.horizonmedia.com/sitemap.xml
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/horizon-media
+  - type: GitHub
+    url: https://github.com/horizonmedia
+    description: >-
+      Horizon Media maintains a private GitHub organization with no public
+      repositories, no public members, and ~30 followers.
+  - type: ProprietaryPlatform
+    title: Blu
+    url: https://www.horizonmedia.com/innovation
+    description: >-
+      Horizon's flagship connected marketing and AI platform. Originally
+      launched in 2020 as an advanced data platform with machine learning,
+      Blu has since evolved into a "transparent business consultancy"
+      platform that analyzes business goals through a media lens, builds
+      and analyzes custom audiences, runs competitive analysis, and answers
+      strategic business questions. Architecturally Blu organizes data in
+      a flat lattice structure for AI access, lists data sources and model
+      details for transparency, operates inside each client's own cloud and
+      data walls, taps multiple LLMs, and uses TransUnion data as a "data
+      spine." Creative assembly, scoring, and generation are in pilot via
+      APIs, MCPs, and agentic options.
+  - type: ProprietaryPlatform
+    title: BluConverged
+    url: https://www.horizonmedia.com/innovation
+    description: >-
+      Joint AI and data platform created by merging Horizon's Blu with Havas's
+      Converged marketing operating system, powering the Horizon Global JV.
+  - type: ProprietaryPlatform
+    title: Horizon OS (Open Sphere)
+    url: https://www.horizonmedia.com/innovation
+    description: >-
+      Ad-tech orchestration and intelligence layer that sits above the
+      programmatic stack, dynamically routing ad spend across DSPs, SSPs,
+      verification, data, and measurement partners (Trade Desk, DV360,
+      Amazon, Clearline, etc.) based on real-time performance signals.
+      Horizon has issued RFIs to 200+ potential partners and is in active
+      pilot integration. Monetization is on decision-making intelligence
+      rather than inventory markups.
+  - type: ProprietaryPlatform
+    title: Swell Audience Network
+    url: https://digiday.com/media-buying/horizons-blue-hour-social-shop-partners-with-platform-key-to-launch-talent-management-tool/
+    description: >-
+      Talent and audience management platform built by Blue Hour Studios with
+      Platform Key, providing programmatic audience segmentation, demographics,
+      geolocation, and third-party analytics across health, wellness, fashion,
+      sports, and music verticals.
+  - type: ProprietaryPlatform
+    title: Cogent
+    url: https://www.horizonmedia.com/innovation
+    description: >-
+      Horizon's proprietary data and intelligence platform brand, sitting
+      alongside Blu in the agency's data and analytics stack.
+  - type: ProprietaryPlatform
+    title: Big
+    url: https://www.horizonmedia.com/innovation
+    description: >-
+      Horizon's proprietary creative platform brand used for creative
+      development and optimization within the agency's tech stack.
+  - type: ProprietaryPlatform
+    title: Wave
+    url: https://www.horizonmedia.com/innovation
+    description: >-
+      Horizon's cultural insights platform brand, associated with the WHY
+      Group cultural intelligence practice that publishes work such as the
+      annual Subculture Field Guide.
+  - type: Division
+    title: Horizon Next
+    url: https://www.horizonmedia.com/insights/horizon-next-partners-with-artsai-on-proprietary-cross-platform-audio-measurement-framework
+    description: >-
+      Horizon Media's performance marketing unit, which has built a proprietary
+      cross-platform audio measurement framework in partnership with ArtsAI.
+  - type: Division
+    title: Blue Hour Studios
+    url: https://digiday.com/media-buying/horizons-blue-hour-social-shop-partners-with-platform-key-to-launch-talent-management-tool/
+    description: >-
+      Horizon's social content and creator-economy division, founded in 2019
+      and led by Sarah Bachman. Operates the Swell Audience Network talent
+      management platform via partnership with Platform Key.
+  - type: Division
+    title: Night Market
+    url: https://www.horizonmedia.com/insights/night-market-introduces-first-ever-standardized-measurement-across-retail-media-networks-allowing-real-time-campaign-performance-assessment
+    description: >-
+      Horizon's retail media practice, which introduced a standardized
+      measurement framework across retail media networks for real-time
+      campaign performance assessment.
+  - type: Division
+    title: Horizon Sports & Experiences (HS&E)
+    url: https://www.horizonmedia.com/
+    description: >-
+      Horizon Media's sports, entertainment, and live-experiences holding
+      group, parent of Scout Sports & Entertainment and related sponsorship
+      and partnerships brands.
+  - type: Division
+    title: Scout Sports & Entertainment
+    url: https://www.horizonmedia.com/
+    description: >-
+      Sponsorship and sports-marketing practice operating under Horizon Sports
+      & Experiences.
+  - type: Division
+    title: WHY Group
+    url: https://www.horizonmedia.com/insights/passion-over-age-the-2024-subculture-field-guide-urges-marketers-to-embrace-niche-over-the-norm
+    description: >-
+      Horizon's strategy and cultural-intelligence practice; publisher of the
+      annual Subculture Field Guide and ongoing cultural deep dives.
+  - type: JointVenture
+    title: Horizon Global
+    url: https://digiday.com/marketing/why-horizon-and-havas-are-joining-forces/
+    description: >-
+      50/50 US joint venture between Horizon Media and Havas announced in
+      September 2025, focused exclusively on US operations for global
+      accounts. Bob Lord serves as interim CEO, Renata Spackova as global
+      COO, with a board including Bill Koenigsberg and Yannick Bolloré.
+      Expected to command roughly $20 billion in annual billings and runs
+      on the combined BluConverged platform.
+  - type: Leadership
+    title: Bill Koenigsberg
+    url: https://www.horizonmedia.com/
+    description: Founder, CEO and Chairman of Horizon Media (founded 1989).
+  - type: Leadership
+    title: Bob Lord
+    url: https://www.horizonmedia.com/
+    description: >-
+      President of Horizon Holdings and interim CEO of the Horizon Global JV
+      with Havas.
+  - type: Leadership
+    title: Domenic Venuto
+    url: https://www.horizonmedia.com/insights/horizon-media-taps-tech-titan-domenic-venuto-as-evp-chief-of-product-data
+    description: EVP, Chief of Product & Data, leading Horizon's product and data org.
+  - type: Leadership
+    title: Tim Rich
+    url: https://www.horizonmedia.com/insights/horizon-media-announces-tim-rich-as-new-head-of-ai-solutions
+    description: Head of AI Solutions.
+  - type: Partner
+    title: TransUnion
+    url: https://www.horizonmedia.com/innovation
+    description: Identity and audience data spine underlying the Blu platform.
+  - type: Partner
+    title: Platform Key
+    url: https://digiday.com/media-buying/horizons-blue-hour-social-shop-partners-with-platform-key-to-launch-talent-management-tool/
+    description: Talent platform partner powering Blue Hour Studios' Swell Audience Network.
+  - type: Partner
+    title: ArtsAI
+    url: https://www.horizonmedia.com/insights/horizon-next-partners-with-artsai-on-proprietary-cross-platform-audio-measurement-framework
+    description: Measurement partner for Horizon Next's cross-platform audio measurement framework.
+  - type: Partner
+    title: Havas
+    url: https://digiday.com/marketing/why-horizon-and-havas-are-joining-forces/
+    description: Joint-venture partner in the Horizon Global US JV.
+  - type: Press
+    title: Horizon and Havas joint venture
+    url: https://digiday.com/marketing/why-horizon-and-havas-are-joining-forces/
+  - type: Press
+    title: Blu AI platform as transparent business consultancy
+    url: https://digiday.com/marketing/horizons-blu-ai-platform-focuses-on-being-a-transparent-business-consultancy/
+  - type: Press
+    title: Horizon OS (Open Sphere) ad-tech orchestration platform
+    url: https://digiday.com/future-of-tv-briefing/future-of-marketing-briefing-horizon-media-is-building-a-platform-to-orchestrate-ad-tech-from-a-single-command-center/
+  - type: Press
+    title: Horizon Global red-ocean differentiation
+    url: https://digiday.com/marketing/media-buying-briefing-how-horizon-and-havas-jv-aims-to-distinguish-itself-in-a-red-ocean/
+maintainers:
+  - FN: API Evangelist
+    url: https://apievangelist.com
+    email: info@apievangelist.com
