@@ -19,7 +19,7 @@ description: >-
   and its GitHub organization is private. All platforms documented here are
   internal/client-facing proprietary systems rather than open developer APIs.
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/api-evangelist/horizon-media/refs/heads/main/apis.yml
 humanURL: https://www.horizonmedia.com/
