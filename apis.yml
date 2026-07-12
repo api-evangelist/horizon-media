@@ -44,6 +44,10 @@ tags:
   - Independent Agency
 apis: []
 common:
+  - type: TrustCenter
+    url: security/horizon-media-trust-center.yml
+  - type: DomainSecurity
+    url: security/horizon-media-domain-security.yml
   - type: Website
     url: https://www.horizonmedia.com/
   - type: Independence

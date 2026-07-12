@@ -1,0 +1,17 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://trust.horizonmedia.com/
+url: https://trust.horizonmedia.com/
+certifications:
+- SOC 2
+- ISO 27001
+- HIPAA
+evidence:
+- source: https://trust.horizonmedia.com/
+  keywords:
+  - soc 2
+  - iso 27001
+  - iso/iec 27001
+  - hipaa
+  - trust center
