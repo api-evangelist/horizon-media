@@ -1,17 +1,52 @@
-generated: '2026-07-11'
+generated: '2026-08-12'
 method: searched
 probe: true
 source: https://trust.horizonmedia.com/
 url: https://trust.horizonmedia.com/
+auditor: Schellman
 certifications:
-- SOC 2
-- ISO 27001
-- HIPAA
+  - SOC 2 Type 2
+  - ISO/IEC 27001:2022
+  - ISO/IEC 27701:2019
+  - ISO/IEC 42001:2023
+  - HITRUST
+  - HIPAA
+documents:
+  - Pentest Report
+  - Access Control Policy
+  - Awareness and Training Policy
+  - Business Continuity/Disaster Recovery (BC/DR) Policy
+  - Change Management Policy
+  - Encryption Policy
+  - Privacy Policy
+sections:
+  - AI Overview, Governance, and Risk Management
+  - Security Operations, Access Control, and Encryption
+  - Third-Party Risk Management
+  - Internal Risk Assessments
+  - Program Governance, Risk Assessment, and Control Monitoring
+not_published:
+  - subprocessor list
+  - vulnerability disclosure / responsible disclosure policy
+  - security contact email
+  - status page
+note: >-
+  Horizon Media's trust center is the single richest machine-adjacent surface the
+  agency publishes. ISO/IEC 42001:2023 (AI management systems) is notable for a
+  media agency and is consistent with the Blu AI platform positioning. Document
+  bodies are gated behind an access request; the certification list itself is
+  public. No responsible-disclosure policy or security contact is published
+  anywhere on the trust center or at /.well-known/security.txt (404), so this
+  repo emits NO Security / VulnerabilityDisclosure pointer.
 evidence:
-- source: https://trust.horizonmedia.com/
-  keywords:
-  - soc 2
-  - iso 27001
-  - iso/iec 27001
-  - hipaa
-  - trust center
+  - source: https://trust.horizonmedia.com/
+    http_status: 200
+    fetched: '2026-08-12'
+    keywords:
+      - soc 2 type 2
+      - iso/iec 27001:2022
+      - iso/iec 27701:2019
+      - iso/iec 42001:2023
+      - hitrust
+      - hipaa
+      - schellman

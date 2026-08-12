@@ -1,0 +1,96 @@
+generated: '2026-08-12'
+method: probed
+source: live HTTP probes of every Horizon Media host named in apis.yml
+note: >-
+  Every /.well-known/ path probed on both verified Horizon Media hosts returned
+  404 with the site's Next.js HTML error shell. No discovery document of any
+  kind is served. Recorded as a measured absence: NO WellKnown, SecurityTxt or
+  APICatalog pointer is emitted in apis.yml, because nothing here is a document
+  the provider actually serves.
+hosts:
+  - host: https://www.horizonmedia.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+      - path: /openapi.json
+        status: 404
+      - path: /robots.txt
+        status: 404
+      - path: /sitemap.xml
+        status: 200
+        note: >-
+          The only machine-readable document served by horizonmedia.com. 18 URLs,
+          all corporate marketing and press pages; no developer, API or docs path.
+  - host: https://trust.horizonmedia.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+      - path: /openapi.json
+        status: 404
+      - path: /robots.txt
+        status: 200
+        note: >-
+          Allows crawling but disallows /api/ except /api/share/ and
+          /api/statuspage/share/. Those are the trust-center vendor's own
+          internal endpoints, not a Horizon Media API. /api/statuspage/share
+          returns 404 — no status page is published.
+adjacent_domains_probed:
+  note: >-
+    Domains whose names match Horizon Media division brands were probed and
+    then REJECTED on ownership grounds (pipeline STEP 0c). None of them is
+    served by Horizon Media, and nothing found on them is credited to this
+    profile.
+  rejected:
+    - domain: bluehourstudios.com
+      probe: https://bluehourstudios.com/llms.txt
+      status: 200
+      finding: >-
+        Serves a real Wix-generated llms.txt advertising a site MCP endpoint at
+        /_api/mcp — but the document describes "real estate and photography in
+        Miami" for One Premier International Realty. This is an unrelated
+        business that owns the domain, NOT Horizon Media's Blue Hour Studios
+        social/creator division. Not saved, not credited.
+    - domain: horizonnext.com
+      probe: https://horizonnext.com/
+      status: 200
+      finding: >-
+        Page title is "Horizon Next USA, Inc. - Your guide to technology
+        horizons!" — an unrelated company, not Horizon Media's Horizon Next
+        performance-marketing unit. Not credited.
+    - domain: scoutsports.com
+      probe: https://scoutsports.com/.well-known/agent-card.json
+      status: 200
+      finding: >-
+        Single-page-app catch-all: returns HTTP 200 with an identical HTML shell
+        for EVERY path including /openapi.json and both agent-card paths. A
+        textbook soft-200 false positive. No agent card, no spec. Ownership by
+        Horizon Media also could not be confirmed from the served page.
+  unresolved:
+    - developer.horizonmedia.com
+    - api.horizonmedia.com
+    - docs.horizonmedia.com
+    - blu.horizonmedia.com
+    - partners.horizonmedia.com
+  unresolved_note: >-
+    No DNS A record. Horizon Media publishes no developer, API or documentation
+    subdomain.

@@ -1,0 +1,25 @@
+generated: '2026-08-12'
+method: searched
+source: >-
+  registry sweep of npm, PyPI, and the HorizonMedia GitHub organization
+  (2026-08-12)
+package_count: 0
+packages: []
+note: >-
+  No first-party Horizon Media client library exists in any public package
+  registry. npm text search for "horizonmedia" returned zero packages;
+  pypi.org/pypi/horizon-media/json returned 404. The company's GitHub
+  organization github.com/HorizonMedia (API HTTP 200, created 2016-10-12,
+  35 followers) publishes 0 public repositories and 0 public gists, so there is
+  no source to derive a package from either. This is an honest zero, not an
+  unchecked field: no SDKs pointer is emitted in apis.yml.
+registries_checked:
+  - registry: npm
+    query: https://registry.npmjs.org/-/v1/search?text=horizonmedia
+    result: 0 matching packages
+  - registry: pypi
+    query: https://pypi.org/pypi/horizon-media/json
+    result: HTTP 404
+  - registry: github
+    query: https://api.github.com/orgs/HorizonMedia/repos
+    result: HTTP 200, 0 public repositories

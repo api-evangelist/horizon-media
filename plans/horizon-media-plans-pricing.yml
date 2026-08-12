@@ -1,0 +1,20 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.horizonmedia.com/interested
+plan_count: 0
+plans: []
+note: >-
+  Horizon Media publishes no plans, tiers, rates or pricing of any kind. It is a
+  media agency whose commercial model is negotiated client engagements and
+  managed media billings (~$8.7B), not a self-serve product. The only commercial
+  entry point on the site is the "interested" contact form (HTTP 200,
+  2026-08-12) — there is no pricing page, no sign-up, and no order form. The
+  Blu audience API and the agentic integration layer are likewise partner
+  agreements, not purchasable plans: Horizon's own 2026-06-18 launch describes
+  monetization as being on "decision-making intelligence" for qualified partners
+  rather than on any published rate. plan_count 0 is a measured finding.
+access:
+  self_serve: false
+  public_pricing: false
+  entry_point: https://www.horizonmedia.com/interested
+  entry_point_status: 200

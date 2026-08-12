@@ -1,0 +1,19 @@
+generated: '2026-08-12'
+method: searched
+source: https://www.horizonmedia.com/
+limit_count: 0
+limits: []
+headers: []
+note: >-
+  No rate limits are documented, because no API reference is published. Horizon
+  Media markets Blu audience APIs and MCP integration points to qualified
+  partners (launch of 2026-06-18) but publishes no developer portal, no API
+  reference and no machine-readable contract, so there is no quota, window,
+  burst, response header or 429 behavior to record. No unauthenticated endpoint
+  exists on any resolving Horizon host against which limits could be observed.
+  limit_count 0 means "checked, nothing published" — not "not checked".
+evidence:
+  - url: https://www.horizonmedia.com/openapi.json
+    status: 404
+  - url: https://www.horizonmedia.com/.well-known/api-catalog
+    status: 404

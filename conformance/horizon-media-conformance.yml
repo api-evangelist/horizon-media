@@ -1,0 +1,74 @@
+generated: '2026-08-12'
+method: searched
+source: https://trust.horizonmedia.com/
+note: >-
+  Horizon Media publishes no machine-readable API contract, so none of the
+  API-technical standards below can be asserted from a spec. What the company
+  DOES publish is a named, third-party-audited compliance program on its trust
+  center, and that is what this file records. Every `conforms: false` here means
+  "no published evidence found", not "fails the standard".
+compliance_program:
+  url: https://trust.horizonmedia.com/
+  auditor: Schellman
+  published: true
+standards:
+  - id: soc2-type2
+    name: SOC 2 Type 2
+    conforms: true
+    evidence: listed as a certification on trust.horizonmedia.com (HTTP 200, 2026-08-12)
+  - id: iso-27001
+    name: ISO/IEC 27001:2022
+    conforms: true
+    evidence: listed as a certification on trust.horizonmedia.com (HTTP 200, 2026-08-12)
+  - id: iso-27701
+    name: ISO/IEC 27701:2019
+    conforms: true
+    evidence: listed as a certification on trust.horizonmedia.com (HTTP 200, 2026-08-12)
+  - id: iso-42001
+    name: ISO/IEC 42001:2023
+    conforms: true
+    evidence: >-
+      listed as a certification on trust.horizonmedia.com (HTTP 200, 2026-08-12);
+      AI management system standard, consistent with the Blu AI platform
+  - id: hitrust
+    name: HITRUST
+    conforms: true
+    evidence: listed as a certification on trust.horizonmedia.com (HTTP 200, 2026-08-12)
+  - id: hipaa
+    name: HIPAA
+    conforms: true
+    evidence: listed as a compliance framework on trust.horizonmedia.com (HTTP 200, 2026-08-12)
+  - id: rfc9116-security-txt
+    name: RFC 9116 security.txt
+    conforms: false
+    evidence: https://www.horizonmedia.com/.well-known/security.txt returned 404 (2026-08-12)
+  - id: rfc8615-well-known
+    name: RFC 8615 well-known URIs
+    conforms: false
+    evidence: every /.well-known/ path probed on both Horizon hosts returned 404 (2026-08-12)
+  - id: openapi
+    name: OpenAPI
+    conforms: false
+    evidence: no OpenAPI/Swagger document found on any resolving Horizon Media host (2026-08-12)
+  - id: oauth2
+    name: OAuth 2.0
+    conforms: false
+    evidence: >-
+      no authorization-server metadata served; Blu partner API auth is not
+      publicly documented
+  - id: mcp
+    name: Model Context Protocol
+    conforms: unverified
+    evidence: >-
+      Horizon states in its 2026-06-18 launch that partners may integrate with
+      Blu "via APIs, MCP standards, or agent-based connections", but no MCP
+      endpoint, tools/list manifest or registry entry is published. Claim is
+      real and provider-stated; the surface is not publicly reachable.
+    source: >-
+      https://www.prnewswire.com/news-releases/horizon-media-launches-agentic-orchestration-layer-for-real-time-media-decisioning-302803722.html
+  - id: a2a
+    name: A2A Agent Card
+    conforms: false
+    evidence: >-
+      /.well-known/agent-card.json and /.well-known/agent.json returned 404 on
+      every verified Horizon Media host (2026-08-12)
