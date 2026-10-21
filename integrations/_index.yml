@@ -19,6 +19,66 @@
     registered_name: com.horizonmedia/brand-authority
     register_id: com.horizonmedia/brand-authority
     detected_by: sweep-agent-tools.py
-    detected: '2026-10-15'
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
+- slug: horizon-media-amazon-ads-partner-directory
+  label: Amazon Ads Partner Directory
+  partner: amazon
+  partner_name: Amazon Ads Partner Directory
+  category: Amazon Ads partner (services)
+  type: register
+  channel: standard-directory
+  evidence: https://advertising.amazon.com/partners/directory
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Amazon Ads Partner Directory (advertising.amazon.com/partners/directory, GetPartners)
+    registered_name: Horizon Media Holdings, LLC
+    register_id: amzn1.ads1.ma1.aj8y3w805jagy61yjcfet5oi4
+    matched_domain: horizonmedia.com
+    matched_by: domain
+    services:
+    - ADVERTISING_EFFECTIVENESS
+    - AUDIENCE_AND_TARGETING
+    - AUDIENCE_MEASUREMENT
+    - AUDIENCE_VERIFICATION
+    - AUDIO_ADS_PRODUCTION
+    - AUDIO_MEASUREMENT
+    - A_PLUS_CONTENT
+    - BRAND_MEASUREMENT
+    - BRAND_SAFETY
+    - BUSINESS_AND_MARKETING_INTELLIGENCE_TOOLS
+    - CAMPAIGN_MANAGEMENT
+    - CAMPAIGN_MONITORING
+    - CAMPAIGN_REPORTING
+    - CAMPAIGN_SETUP
+    - CLEAN_ROOM_ANALYTICS
+    ads_products:
+    - AMAZON_ATTRIBUTION
+    - AMAZON_DSP
+    - AMAZON_LIVE
+    - AMAZON_MARKETING_CLOUD
+    - AUDIO_ADS
+    - SPONSORED_BRANDS
+    - SPONSORED_DISPLAY
+    - SPONSORED_PRODUCTS
+    - STORES
+    - VIDEO_ADS
+    service_models:
+    - SERVICE
+    signal_note: listing = participation; accreditation recorded as partner_tier; ads_certifications are Amazon
+      Ads LEARNING certifications held by staff, not product conformance, never certified_products
+    detected_by: sweep-amazon-sp-api-appstore.py
+    detected: '2026-10-21'
+    ads_certifications:
+    - AMAZON_ADS_CAMPAIGN_PLANNING
+    - AMAZON_ADS_FOUNDATIONS
+    - AMAZON_DSP
+    - AMAZON_MARKETING_CLOUD
+    - AMAZON_RETAIL
+    - SPONSORED_ADS
+    - TWITCH_ADS
+    - VIDEO_ADS
   status: not-a-workflow
   arazzo: null
