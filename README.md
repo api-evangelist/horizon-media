@@ -1,4 +1,4 @@
-# Horizon Media (horizon-media)
+# Horizon Media
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,64 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Horizon Media is the largest independent media agency in the United States, founded in 1989 by Bill Koenigsberg and headquartered at 75 Varick Street in New York with offices in Los Angeles and Toronto. The agency employs roughly 2,300+ people, is ranked the third largest US media agency by COMvergence, and manages an estimated $8.7 billion in billings under the tagline "Business is Personal."
+Horizon Media is the largest independent media agency in the United States, founded in 1989 by Bill Koenigsberg and headquartered at 75 Varick Street in New York with offices in Los Angeles and Toronto. The agency employs roughly 2,300+ people, is ranked the third largest US media agency by COMvergence, and manages an estimated $8.7 billion in billings. Horizon operates a portfolio of specialty units (Horizon Next for performance, Blue Hour Studios for social/creator, Night Market for retail media, Scout Sports for sponsorship via Horizon Sports & Experiences, and the WHY Group for cultural insights) and runs a proprietary data and AI stack anchored by the Blu platform. In 2025 Horizon formed Horizon Global, a 50/50 US joint venture with Havas positioned at roughly $20 billion in combined billings, merging Blu with Havas Converged into a shared platform branded BluConverged, and is also building Horizon OS (Open Sphere) as an orchestration layer over the programmatic ad-tech stack. In June 2026 Horizon launched an agentic integration layer around Blu — a set of Blu audience APIs, MCP endpoints and agent-based integration points that ad-tech, media-owner and martech partners can build on — but that surface is partner-gated: Horizon publishes no developer portal, no API reference, no OpenAPI or other machine-readable contract, no SDKs in any public registry, and its GitHub organization has zero public repositories. The only route to the API is the corporate contact form. All platforms documented here are proprietary systems reachable through a commercial partnership rather than open developer APIs.
 
-**No public developer APIs were identified for Horizon Media.** Horizon does not publish OpenAPI specifications, SDKs, a developer portal, a public changelog, or a status page. Its GitHub organization at `github.com/horizonmedia` is private with zero public repositories and zero public members. Every platform documented in this profile is an internal or client-facing proprietary system rather than an externally consumable API.
+**Areas:** Advertising · Media Agency · Media Planning · Media Buying · Programmatic · Retail Media · Sports Marketing · Social Media · Influencer Marketing · Cultural Intelligence · Data Platform · AI Platform
 
-This profile catalogs Horizon's proprietary tech stack, specialty divisions, leadership, and major 2025 strategic moves (Horizon Global JV with Havas, Horizon OS orchestration layer).
+## Horizon Media on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/horizon-media/refs/heads/main/apis.yml)
+Everything profiled for Horizon Media is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/horizon-media/](https://apis.io/providers/horizon-media/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Advertising, Media Agency, Media Planning, Media Buying, Programmatic, Retail Media, Sports Marketing, Social Media, Influencer Marketing, Cultural Intelligence, Data Platform, AI Platform, MarTech, AdTech, Independent Agency
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (2)
 
-- **Created:** 2025-03-01
-- **Modified:** 2026-05-23
+Authentication, trust centre, and vulnerability disclosure.
 
-## Proprietary Platforms
+- [Horizon Media Domain Security](https://apis.io/security/horizon-media/horizon-media-domain-security/)
+- [Horizon Media Trust Center](https://apis.io/security/horizon-media/horizon-media-trust-center/)
 
-- **Blu** — Connected marketing and AI platform; the agency's flagship data and decision layer. Operates inside each client's own cloud with multi-LLM access and a TransUnion data spine. Originally launched 2020, repositioned in 2025 as a "transparent business consultancy" platform.
-- **BluConverged** — Joint AI/data platform created by merging Blu with Havas Converged, powering the Horizon Global JV.
-- **Horizon OS (Open Sphere)** — Orchestration and intelligence layer above the programmatic ad-tech stack; routes spend across 200+ vetted partner systems (DSPs, SSPs, verification, data, measurement) in real time.
-- **Swell Audience Network** — Talent and audience management platform built by Blue Hour Studios with Platform Key.
-- **Cogent** — Proprietary data and intelligence platform.
-- **Big** — Proprietary creative platform.
-- **Wave** — Cultural insights platform associated with the WHY Group practice.
+#### Plans and pricing (1)
 
-## Specialty Divisions
+Published plans, tiers and prices.
 
-- **Horizon Next** — Performance marketing; cross-platform audio measurement framework with ArtsAI.
-- **Blue Hour Studios** — Social content and creator economy (founded 2019, led by Sarah Bachman).
-- **Night Market** — Retail media; standardized measurement across retail media networks.
-- **Horizon Sports & Experiences (HS&E)** — Sports, entertainment, and live experiences holding group.
-- **Scout Sports & Entertainment** — Sponsorship and sports marketing, under HS&E.
-- **WHY Group** — Strategy and cultural intelligence; publishes the annual Subculture Field Guide.
+- [Horizon Media Plans Pricing](https://apis.io/plans/horizon-media/horizon-media-plans-pricing/)
 
-## Joint Venture
+#### Rate limits (1)
 
-- **Horizon Global** — 50/50 US JV with Havas announced September 2025; ~$20B combined billings; interim CEO Bob Lord; global COO Renata Spackova; runs on BluConverged.
+Published request limits.
 
-## Leadership
+- [Horizon Media Rate Limits](https://apis.io/rate-limits/horizon-media/horizon-media-rate-limits/)
 
-- **Bill Koenigsberg** — Founder, CEO, Chairman
-- **Bob Lord** — President, Horizon Holdings; interim CEO, Horizon Global
-- **Domenic Venuto** — EVP, Chief of Product & Data
-- **Tim Rich** — Head of AI Solutions
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.horizonmedia.com/)
-- [Insights](https://www.horizonmedia.com/insights)
-- [Contact](https://www.horizonmedia.com/interested)
-- [Sitemap](https://www.horizonmedia.com/sitemap.xml)
-- [LinkedIn](https://www.linkedin.com/company/horizon-media)
-- [GitHub (private, no public repos)](https://github.com/horizonmedia)
+- [Compliance](https://trust.horizonmedia.com/)
+- [Terms of service](https://www.horizonmedia.com/terms-of-use)
+- [Privacy policy](https://www.horizonmedia.com/privacy-policy)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** API Evangelist
+**Kin Score 16.7** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** info@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 51.8 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 36.8 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/horizon-media/](https://apis.io/providers/horizon-media/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Horizon Media: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/horizon-media/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
